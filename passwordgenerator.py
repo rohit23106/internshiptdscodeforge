@@ -23,5 +23,4 @@ def main():
     length, include_letters, include_digits, include_special = get_password_requirements()
     password = generate_password(length, include_letters, include_digits, include_special)
     print(f"Your generated password is: {password}")
-# Start the program
 main()

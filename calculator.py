@@ -28,5 +28,4 @@ def calculator():
             print(f"{num1} / {num2} = {divide(num1, num2)}")
     else:
         print("Invalid input")
-# Run the calculator
 calculator()
